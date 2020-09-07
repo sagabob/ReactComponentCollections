@@ -1,0 +1,40 @@
+.navbar_title {
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 5px 0 0 0;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.navbar_payoff {
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 100;
+  box-shadow: 0 2px 15px -1px #0002;
+  top: 0;
+  transition: all 0.3s ease;
+  padding: 10px;
+}
+
+.navbar--close .navbar_title {
+  margin-top: 0;
+  font-size: 1.7em;
+}
+
+.navbar--close .navbar_payoff {
+  font-size: 0.65em;
+}

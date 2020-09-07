@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import DemoApp from "./demo/DemoApp";
-
+import IndexApp from "./indexapp/IndexApp";
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <DemoApp></DemoApp>
-    </div>
+    <Router>
+      <IndexApp />
+    </Router>
   );
 }
 
