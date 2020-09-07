@@ -19,10 +19,12 @@ const Gallery = (props) => {
   useEffect(() => {
     const play = autoPlay && setTimeout(goToNextSlide, duration);
     return () => clearTimeout(play);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index, autoPlay, duration]);
 
   useEffect(() => {
     goToSlide(inputIndex);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inputIndex]);
 
   const goToSlide = (i) => {
