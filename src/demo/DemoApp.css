@@ -1,0 +1,9 @@
+.slider_container {
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0 20px 0 20px;
+  height: 60vh;
+  width: 60vw;
+  border: 1px black;
+}
