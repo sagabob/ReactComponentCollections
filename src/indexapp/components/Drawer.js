@@ -31,7 +31,7 @@ const LocalDrawer = () => {
       </Button>
       <Menu
         defaultSelectedKeys={["1"]}
-        defaultOpenKeys={["0"]}
+        defaultOpenKeys={["sub1"]}
         mode="inline"
         inlineCollapsed={collapsed}
       >
@@ -42,17 +42,17 @@ const LocalDrawer = () => {
           {routes.map(
             (route, index) =>
               route.category === "Sliders" && (
-                <Menu.Item key={index}>
+                <Menu.Item key={"sub1-" + index}>
                   <Link to={route.path}>{route.label}</Link>
                 </Menu.Item>
               )
           )}
         </SubMenu>
         <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Cards">
-          <Menu.Item key="1">Prototype 1</Menu.Item>
+          <Menu.Item key="sub2-1">Prototype 1</Menu.Item>
         </SubMenu>
         <SubMenu key="sub3" icon={<BarsOutlined />} title="Buttons">
-          <Menu.Item key="1">
+          <Menu.Item key="sub3-1">
             <Link to="/comp">Components</Link>
           </Menu.Item>
         </SubMenu>
