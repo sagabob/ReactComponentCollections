@@ -28,7 +28,7 @@
 * [Contact](#contact)
 
 ## About the project
-This project creates a converting service that converts uploaded geojson file into gml, kml (Google Earth format) and another way around. 
+This project contains a collection of reusable React components (work in progress).
 
 ## Built With
 The application is using:
@@ -42,19 +42,21 @@ The application is using:
 2. Restore solution
 
 ## Roadmap
-The application will be extended with the following features
-* Add form validation
-* Allow to upload multiple files.
+The application will be added with more UI components such as
+* Card UI & Layout
+* Sliders
+* Graph
+* Animation
 
 
 ## Continuous Development Delivery
-The application is built with CircleCI and deployed to Firebase. Here is the [link](https://saga-react-collection.web.app/) 
-
+The application is built with CircleCI and deployed to Firebase. Here is the [link](https://saga-react-collection.web.app/)<br/> 
+[![Deployment Status](https://circleci.com/gh/sagabob/ReactNetflixApp.svg?style=svg)](https://circleci.com/gh/sagabob/ReactNetflixApp.svg?style=svg)
 
 ## Contact
 [![LinkedIn][linkedin-shield]][linkedin-url]<br/>
 Bob Pham - bobpham.tdp@gmail.com<br/>
-Project Link: [https://github.com/sagabob/GeoSpatialDataTypeConvertingService](https://github.com/sagabob/GeoSpatialDataTypeConvertingService)
+Project Link: [https://github.com/sagabob/ReactComponentCollections](https://github.com/sagabob/ReactComponentCollections)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bob-pham-93937973/
