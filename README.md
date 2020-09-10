@@ -9,9 +9,7 @@
   </a>
 
   <h3 align="center">A collection of usable REACT components</h3>
-  <p align="center">
-    A collection of reusable REACT components   
-    <br />
+  <p align="center">   
     <a href="https://saga-react-collection.web.app/" target="_blank">View Demo</a>  
   </p>
 </p>
