@@ -49,7 +49,7 @@ The application will be added with more UI components such as
 
 ## Continuous Development Delivery
 The application is built with CircleCI and deployed to Firebase. Here is the [link](https://saga-react-collection.web.app/)<br/> 
-[![Deployment Status](https://circleci.com/gh/sagabob/ReactComponentCollections.svg?style=svg)](https://circleci.com/gh/sagabob/ReactComponentCollections.svg?style=svg)
+[![Deployment Status](https://circleci.com/gh/sagabob/ReactComponentCollections/tree/demo.svg?style=svg)](https://circleci.com/gh/sagabob/ReactComponentCollections/tree/demo.svg?style=svg)
 
 ## Contact
 [![LinkedIn][linkedin-shield]][linkedin-url]<br/>
