@@ -8,7 +8,7 @@
     <img src="https://i.ibb.co/gb2tf3s/Tdp-logo-main.png" alt="Logo" width="285" height="170">
   </a>
 
-  <h3 align="center">Tdp Netflix Clone App</h3>
+  <h3 align="center">A collection of usable REACT components</h3>
   <p align="center">
     A collection of reusable REACT components   
     <br />
@@ -51,7 +51,7 @@ The application will be added with more UI components such as
 
 ## Continuous Development Delivery
 The application is built with CircleCI and deployed to Firebase. Here is the [link](https://saga-react-collection.web.app/)<br/> 
-[![Deployment Status](https://circleci.com/gh/sagabob/ReactNetflixApp.svg?style=svg)](https://circleci.com/gh/sagabob/ReactNetflixApp.svg?style=svg)
+[![Deployment Status](https://circleci.com/gh/sagabob/ReactComponentCollections.svg?style=svg)](https://circleci.com/gh/sagabob/ReactComponentCollections.svg?style=svg)
 
 ## Contact
 [![LinkedIn][linkedin-shield]][linkedin-url]<br/>
