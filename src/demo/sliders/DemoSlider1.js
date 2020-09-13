@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import unsplashPhotos from "../utils/unsplash";
-import Gallery from "../components/slider-01/Gallery";
-import "./DemoSlider1.css";
+import unsplashPhotos from "../../utils/unsplash";
+import Gallery from "../../components/sliders/slider-01/Gallery";
 import { Switch } from "antd";
 import { CloseOutlined, CheckOutlined } from "@ant-design/icons";
+import "./DemoSlider1.css";
+
 function DemoSlider1() {
   const [images, setImages] = useState([]);
   const [autoPlay, setAutoPlay] = useState(false);

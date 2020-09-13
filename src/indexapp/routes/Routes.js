@@ -1,5 +1,5 @@
 import Home from "../pages/Home";
-import DemoSlider1 from "../../demo/DemoSlider1";
+import DemoSlider1 from "../../demo/sliders/DemoSlider1";
 import Component from "../pages/Component";
 
 const routes = [
