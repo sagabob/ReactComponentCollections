@@ -1,5 +1,6 @@
 import Home from "../pages/Home";
-import DemoSlider1 from "../../demo/sliders/DemoSlider1";
+import DemoSlider1 from "../../demo/sliders/01/DemoSlider";
+import DemoSlider2 from "../../demo/sliders/02/DemoSlider";
 import Component from "../pages/Component";
 
 const routes = [
@@ -7,6 +8,12 @@ const routes = [
     path: "/slider1",
     component: DemoSlider1,
     label: "Slider 1",
+    category: "Sliders",
+  },
+  {
+    path: "/slider2",
+    component: DemoSlider2,
+    label: "Slider 2",
     category: "Sliders",
   },
   {

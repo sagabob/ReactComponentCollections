@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import unsplashPhotos from "../../utils/unsplash";
-import Gallery from "../../components/sliders/slider-01/Gallery";
+import unsplashPhotos from "../../../utils/unsplash";
+import Gallery from "../../../components/sliders/slider-01/Gallery";
 import { Switch } from "antd";
 import { CloseOutlined, CheckOutlined } from "@ant-design/icons";
-import "./DemoSlider1.css";
+import "./DemoSlider.css";
 
-function DemoSlider1() {
+function DemoSlider() {
   const [images, setImages] = useState([]);
   const [autoPlay, setAutoPlay] = useState(false);
   useEffect(() => {
@@ -16,6 +16,7 @@ function DemoSlider1() {
     console.log(`switch to ${checked}`);
     setAutoPlay(checked);
   }
+
   return (
     <>
       <div className="common_container">
@@ -49,4 +50,4 @@ function DemoSlider1() {
   );
 }
 
-export default DemoSlider1;
+export default DemoSlider;
